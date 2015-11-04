@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4308F6881BE6F30B0077CBBE /* PDPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4308F6871BE6F30B0077CBBE /* PDPViewController.swift */; };
+		430C679D1BE4414400334A46 /* SubCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430C679C1BE4414400334A46 /* SubCategory.swift */; };
+		430C679F1BE5039000334A46 /* SubCatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430C679E1BE5039000334A46 /* SubCatViewController.swift */; };
+		430C67A11BE5C06C00334A46 /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430C67A01BE5C06C00334A46 /* ProductListViewController.swift */; };
+		430C67A31BE5C32C00334A46 /* ProductDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430C67A21BE5C32C00334A46 /* ProductDetail.swift */; };
 		435C725E1BDD2356000EA7BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435C725D1BDD2356000EA7BA /* AppDelegate.swift */; };
 		435C72601BDD2356000EA7BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435C725F1BDD2356000EA7BA /* ViewController.swift */; };
 		435C72631BDD2356000EA7BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 435C72611BDD2356000EA7BA /* Main.storyboard */; };
@@ -14,6 +19,7 @@
 		435C72681BDD2356000EA7BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 435C72661BDD2356000EA7BA /* LaunchScreen.storyboard */; };
 		435C72731BDD2356000EA7BA /* SwiftCCoverageExpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435C72721BDD2356000EA7BA /* SwiftCCoverageExpTests.swift */; };
 		435C727E1BDD2356000EA7BA /* SwiftCCoverageExpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435C727D1BDD2356000EA7BA /* SwiftCCoverageExpUITests.swift */; };
+		435C728E1BDD30E4000EA7BA /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435C728D1BDD30E4000EA7BA /* Category.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4308F6871BE6F30B0077CBBE /* PDPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDPViewController.swift; sourceTree = "<group>"; };
+		430C679C1BE4414400334A46 /* SubCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubCategory.swift; sourceTree = "<group>"; };
+		430C679E1BE5039000334A46 /* SubCatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubCatViewController.swift; sourceTree = "<group>"; };
+		430C67A01BE5C06C00334A46 /* ProductListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
+		430C67A21BE5C32C00334A46 /* ProductDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetail.swift; sourceTree = "<group>"; };
 		435C725A1BDD2356000EA7BA /* SwiftCCoverageExp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCCoverageExp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		435C725D1BDD2356000EA7BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		435C725F1BDD2356000EA7BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,7 @@
 		435C72791BDD2356000EA7BA /* SwiftCCoverageExpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftCCoverageExpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		435C727D1BDD2356000EA7BA /* SwiftCCoverageExpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCCoverageExpUITests.swift; sourceTree = "<group>"; };
 		435C727F1BDD2356000EA7BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		435C728D1BDD30E4000EA7BA /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +109,9 @@
 		435C725C1BDD2356000EA7BA /* SwiftCCoverageExp */ = {
 			isa = PBXGroup;
 			children = (
+				435C728C1BDD303E000EA7BA /* Models */,
+				435C728B1BDD3012000EA7BA /* ViewControllers */,
 				435C725D1BDD2356000EA7BA /* AppDelegate.swift */,
-				435C725F1BDD2356000EA7BA /* ViewController.swift */,
 				435C72611BDD2356000EA7BA /* Main.storyboard */,
 				435C72641BDD2356000EA7BA /* Assets.xcassets */,
 				435C72661BDD2356000EA7BA /* LaunchScreen.storyboard */,
@@ -123,6 +136,27 @@
 				435C727F1BDD2356000EA7BA /* Info.plist */,
 			);
 			path = SwiftCCoverageExpUITests;
+			sourceTree = "<group>";
+		};
+		435C728B1BDD3012000EA7BA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				435C725F1BDD2356000EA7BA /* ViewController.swift */,
+				430C679E1BE5039000334A46 /* SubCatViewController.swift */,
+				430C67A01BE5C06C00334A46 /* ProductListViewController.swift */,
+				4308F6871BE6F30B0077CBBE /* PDPViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		435C728C1BDD303E000EA7BA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				435C728D1BDD30E4000EA7BA /* Category.swift */,
+				430C679C1BE4414400334A46 /* SubCategory.swift */,
+				430C67A21BE5C32C00334A46 /* ProductDetail.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +291,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				435C72601BDD2356000EA7BA /* ViewController.swift in Sources */,
+				430C679D1BE4414400334A46 /* SubCategory.swift in Sources */,
 				435C725E1BDD2356000EA7BA /* AppDelegate.swift in Sources */,
+				430C67A31BE5C32C00334A46 /* ProductDetail.swift in Sources */,
+				430C679F1BE5039000334A46 /* SubCatViewController.swift in Sources */,
+				4308F6881BE6F30B0077CBBE /* PDPViewController.swift in Sources */,
+				430C67A11BE5C06C00334A46 /* ProductListViewController.swift in Sources */,
+				435C728E1BDD30E4000EA7BA /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +522,7 @@
 				435C72841BDD2356000EA7BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		435C72851BDD2356000EA7BA /* Build configuration list for PBXNativeTarget "SwiftCCoverageExpTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +531,7 @@
 				435C72871BDD2356000EA7BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		435C72881BDD2356000EA7BA /* Build configuration list for PBXNativeTarget "SwiftCCoverageExpUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +540,7 @@
 				435C728A1BDD2356000EA7BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
